@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "\"# playwright-test\"",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DrRaykko/playwright-test.git"
@@ -18,5 +20,8 @@
     "@playwright/test": "^1.53.1",
     "@types/node": "^24.0.3",
     "dotenv": "^16.5.0"
+  },
+  "dependencies": {
+    "jest": "^30.0.4"
   }
 }
